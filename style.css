@@ -34,8 +34,9 @@ body {
 }
 
 .text-area {
-    width: 375px;
-    height: 100px;
+    width: 355px;
+    height: 80px;
+    padding: 10px;
     background-color: var(--white);
     margin-bottom: 30px;
 }
