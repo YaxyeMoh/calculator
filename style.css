@@ -6,6 +6,10 @@
     --blue: #40798C;
     --green: #95C623 ;
     --red: #DC493A;
+
+    --light-blue: #6694A3;
+    --light-green: #BBDA72;
+    --light-red: #E36D61;
 }
 
 * {
@@ -64,10 +68,22 @@ button {
     background-color: var(--red);
 }
 
+.number:hover {
+    background-color: var(--light-red);
+}
+
 .operation {
     background-color: var(--green);
 }
 
+.operation:hover {
+    background-color: var(--light-green);
+}
+
 .system {
     background-color: var(--blue);
+}
+
+.system:hover {
+    background-color: var(--light-blue);
 }
