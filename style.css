@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+    --purple: #140F2D;
+    --white: #F5F5F5;
+    --blue: #40798C;
+    --green: #95C623 ;
+    --red: #DC493A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 375px;
+    height: 525px;
+    background-color: var(--purple);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text-area {
+    width: 375px;
+    height: 100px;
+    background-color: var(--white);
+    margin-bottom: 30px;
+}
+
+.button-area {
+    width: 375px;
+    height: 395px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+button[value="0"] {
+    width: 185px;
+    height: 75px;
+}
+
+button {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 24px;
+    border: none;
+}
+
+.number {
+    background-color: var(--red);
+}
+
+.operation {
+    background-color: var(--green);
+}
+
+.system {
+    background-color: var(--blue);
+}
