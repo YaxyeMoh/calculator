@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #a78682;
 }
 
 .calculator {
@@ -39,6 +40,15 @@ body {
     padding: 10px;
     background-color: var(--white);
     margin-bottom: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.text-area {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    overflow: hidden;
 }
 
 .button-area {
@@ -60,7 +70,7 @@ button {
     width: 90px;
     height: 75px;
     border-radius: 10px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
     border: none;
 }
